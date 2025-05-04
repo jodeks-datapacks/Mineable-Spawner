@@ -1,0 +1,1 @@
+execute if score &xp_drop config.mineablespawner matches 1 as @s at @s run kill @e[type=minecraft:experience_orb,distance=..10]

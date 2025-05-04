@@ -1,6 +1,38 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Makes spawners mineable with a pickaxe that has silk touch - [1.21] - v.1.0.0"
+    "description": [
+      {
+        "text": "\"Mineable Spawner\" (mineablespawner)"
+      },
+      "\n",
+      {
+        "text": "Mine spawners with a pickaxe",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "2.1.1",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "1.21",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
   }
 }

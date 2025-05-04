@@ -9,18 +9,40 @@
           "name": "minecraft:spawner",
           "conditions": [
             {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "break_spawner.mineablespawner": 0
+              }
+            },
+            {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "tag": "minecraft:pickaxes",
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:silk_touch",
-                    "levels": {
-                      "min": 1,
-                      "max": 255
-                    }
+                "items": "#minecraft:pickaxes"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "break_spawner.mineablespawner": 1
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": "#minecraft:pickaxes",
+                "components": {
+                  "minecraft:enchantments": {
+                    "minecraft:silk_touch": 1
                   }
-                ]
+                }
               }
             }
           ]
