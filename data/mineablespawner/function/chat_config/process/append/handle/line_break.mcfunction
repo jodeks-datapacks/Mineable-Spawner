@@ -1,0 +1,1 @@
+data modify storage config_system:mineablespawner menu append value "\n"

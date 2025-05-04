@@ -12,7 +12,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "break_spawner.mineablespawner": 0
+                "break_spawner.mineablespawner": 1
               }
             },
             {
@@ -31,7 +31,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "break_spawner.mineablespawner": 1
+                "break_spawner.mineablespawner": 2
               }
             },
             {

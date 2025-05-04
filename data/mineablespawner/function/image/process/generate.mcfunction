@@ -1,11 +1,10 @@
-#> mineablespawner:image/generate
+#> mineablespawner:image/process/generate
 #
 # This function generates the image data.
 
 data modify storage mineablespawner:image current.image_data set from storage mineablespawner:image image_data
 data modify storage mineablespawner:image current.description set from storage mineablespawner:image description
-data modify storage mineablespawner:image current.pixel_character set \
-  from storage mineablespawner:image pixel_character.pixel
+data modify storage mineablespawner:image current.pixel_character set from storage mineablespawner:image pixel_character.pixel
 
 # Reset index score
 scoreboard players set $index.image_data mineablespawner.image 0

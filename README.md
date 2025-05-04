@@ -19,7 +19,7 @@ Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or cr
 
 ## Config
 
-**For 1.21.5 you can run:**
+If it works for your version you can run
 
 ```
 /trigger mineablespawner.config
@@ -50,20 +50,10 @@ value = 2 = Doesn't drop
 /scoreboard players set &xp_drop config.mineablespawner value
 ```
 
+
 value = 0 = XP drops 
 
 value = 1 = No XP drops --> default
-
-### To change if the spawn egg should drop too (1.21+)
-
-
-```
-/scoreboard players set &spawn_egg_drop config.mineablespawner value
-```
-
-value = 0 = Spawn egg drops --> default
-
-value = 1 = Spawn egg doesn't drop
 
 ---
 

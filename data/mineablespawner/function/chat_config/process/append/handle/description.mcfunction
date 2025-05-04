@@ -1,0 +1,2 @@
+$execute unless data storage config_system:mineablespawner current_option{description:""} run data modify storage config_system:mineablespawner menu append value {text:"$(description)",color:"gray"}
+execute unless data storage config_system:mineablespawner current_option{description:""} run data modify storage config_system:mineablespawner menu append value "\n"

@@ -13,3 +13,4 @@ execute unless score $index.image_data mineablespawner.image = $length mineables
 
 # Remove first element from the description
 data remove storage mineablespawner:image current.description[0]
+ 

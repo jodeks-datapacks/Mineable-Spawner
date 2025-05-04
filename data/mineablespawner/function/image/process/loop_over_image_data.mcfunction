@@ -19,10 +19,10 @@ execute if score $index.column mineablespawner.image matches 1 run \
   function mineablespawner:image/process/append/blank
 
 # Append colored pixel
-execute unless data storage mineablespawner:image current{pixel_color: ""} run \
+execute unless data storage mineablespawner:image current{pixel_color: ''} run \
   function mineablespawner:image/process/append/pixel
 # Append background pixel
-execute if data storage mineablespawner:image current{pixel_color: ""} run \
+execute if data storage mineablespawner:image current{pixel_color: ''} run \
   function mineablespawner:image/process/append/background
 
 # Append description
@@ -34,3 +34,4 @@ data remove storage mineablespawner:image current.image_data[0]
 # Loop over rows
 execute if score $index.row mineablespawner.image < $height mineablespawner.image run \
   function mineablespawner:image/process/loop_over_image_data
+ 

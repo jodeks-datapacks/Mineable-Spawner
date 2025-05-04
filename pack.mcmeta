@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 48,
+    "pack_format": 71,
     "description": [
       {
         "text": "\"Mineable Spawner\" (mineablespawner)"
@@ -22,7 +22,7 @@
         "text": " for Minecraft "
       },
       {
-        "text": "1.21",
+        "text": "1.21.5",
         "color": "#55ff55"
       },
       "\n",

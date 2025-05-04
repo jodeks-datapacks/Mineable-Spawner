@@ -1,3 +1,83 @@
-scoreboard players set @s help.mineablespawner 0
+scoreboard players set @a help.mineablespawner 0
 
-tellraw @s ["",{"text":"[HELP]","color":"gray"}," ",{"text":"Mineable Spawner","bold":true},"\n\n",{"text":"To change how to break the spawner","bold":true},"\n\n",{"text":"/scoreboard players set ","color":"yellow"},{"text":"&break_spawner config.mineablespawner ","color":"yellow"},{"text":"value","color":"yellow","italic":true},"\n",{"text":"value ","italic":true},"= 0 = With any pickaxe\n",{"text":"value ","italic":true},"= 1 = With any pickaxe that has silk touch\n",{"text":"value ","italic":true},"= 2 = Doesn't drop\n\n",{"text":"To change if XP from spawners drop or not","bold":true},"\n\n",{"text":"/scoreboard players set &xp_drop config.mineablespawner","color":"yellow"},{"text":" ","color":"yellow"},{"text":"value","color":"yellow","italic":true},"\n",{"text":"value ","italic":true},"= 0 = XP drops\n",{"text":"value ","italic":true},"= 1 = No XP drops\n\nTo uninstall run:\n",{"text":"/function mineablespawner","color":"yellow"},{"text":":uninstall","color":"yellow"},"\n\nThen ",{"text":"delete the file","color":"yellow"}," or do:\n",{"text":"/datapack disable datapack.zip","color":"yellow"},"\n\nRun ",{"text":"/reload","color":"yellow"},"\n\n",{"text":"For the mod:\ndelete the mod.jar and restart the server/client","color":"gray"},"\n\n",{"text":"[LINK]","color":"gray","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/mineable-spawner"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/mineable-spawner"}}," ",{"text":"Mineable Spawner","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/mineable-spawner"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/mineable-spawner"},"color":"dark_purple"},"\n\n",{"text":"[LINK] ","color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/ScXkDNHnYX"},"hoverEvent":{"action":"show_text","contents":"discord.gg/ScXkDNHnYX"}},{"text":"Discord Server","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/ScXkDNHnYX"},"hoverEvent":{"action":"show_text","contents":"discord.gg/ScXkDNHnYX"}}]
+tellraw @s \
+[\
+  "\n",\
+  {\
+  text:"[HELP] ",\
+    color:"gray"\
+  },\
+  {\
+  text:"Mineable Spawner",\
+    bold:true\
+  },\
+  "\n\nTo open the config run:\n",\
+  {\
+    text:"/trigger config.mineablespawner",\
+    color:"yellow"\
+  },\
+  "\n\nTo uninstall run:\n",\
+  {\
+    text:"/function mineablespawner:uninstall",\
+    color:"yellow"\
+  },\
+  "\n\n",\
+  {\
+    text:"[LINK] ",\
+    color:"gray",\
+    click_event:\
+      {\
+        action:"open_url",\
+        url:"https://modrinth.com/datapack/mineable-spawner"\
+      },\
+    hover_event:\
+      {\
+        action:"show_text",\
+        value:"modrinth.com/datapack/mineable-spawner"\
+      }\
+  },\
+  {\
+    text:"Modrinth Mineable Spawner",\
+    color:"dark_purple",\
+    click_event:\
+    {\
+      action:"open_url",\
+      url:"https://modrinth.com/datapack/mineable-spawner"\
+    },\
+    hover_event:\
+    {\
+      action:"show_text",\
+      value:"modrinth.com/datapack/mineable-spawner"\
+    }\
+  },\
+  "\n\n",\
+  {\
+    text:"[LINK] ",\
+    color:"gray",\
+    click_event:\
+    {\
+      action:"open_url",\
+      url:"https://discord.gg/ScXkDNHnYX"\
+    },\
+    hover_event:\
+    {\
+      action:"show_text",\
+      value:"discord.gg/ScXkDNHnYX"\
+    }\
+  },\
+  {\
+    text:"Discord Server",\
+    color:"blue",\
+    click_event:\
+    {\
+      action:"open_url",\
+      url:"https://discord.gg/ScXkDNHnYX"\
+    },\
+    hover_event:\
+    {\
+      action:"show_text",\
+      value:"discord.gg/ScXkDNHnYX"\
+    }\
+  },\
+  " --> for issues, suggestions, questions and news"\
+]

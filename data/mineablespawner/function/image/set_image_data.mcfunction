@@ -28,8 +28,8 @@ $data modify storage mineablespawner:image height set value $(height)
 $data modify storage mineablespawner:image background_color set value "$(background_color)"
 $data modify storage mineablespawner:image description set value $(description)
 
-data modify storage mineablespawner:image pixel_character.blank set value '"　"'
-data modify storage mineablespawner:image pixel_character.pixel set value '"▌▌"'
-data modify storage mineablespawner:image pixel_character.line_break set value '"\\n"'
+data modify storage mineablespawner:image pixel_character.blank set value "　"
+data modify storage mineablespawner:image pixel_character.pixel set value "▌▌"
+data modify storage mineablespawner:image pixel_character.line_break set value '\n'
 
 function mineablespawner:image/process/generate
