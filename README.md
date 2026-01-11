@@ -1,5 +1,13 @@
 # Mineable Spawner
 
+<div style="display: flex; gap: 20px;">
+<a href="https://ko-fi.com/H2H011LYHJ"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"/></a>
+  
+<a href="https://github.com/sponsors/Jodekq" target="_blank">
+  <img src="https://img.shields.io/badge/Sponsor-Jodek-green?style=for-the-badge&logo=github&logoWidth=20" alt="Sponsor @Jodek" />
+</a>
+</div>
+
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
   <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
@@ -15,23 +23,35 @@ Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or cr
 
 **3.** Setting so XP drops or not (default: disabled)
 
-**4.** (For now only 1.21.5) Setting so the spawn egg drops too or not (default: enabled)
+**4.** Setting so the spawn egg drops too or not (default: enabled)
 
 ## Config
 
-If it works for your version you can run
+**For 1.21.5+ you can run:**
 
 ```
 /trigger mineablespawner.config
 ```
+If that for some reason doesn't work, use this
 
-Otherwise you have to use:
-
-### To change how to break the spawner
+value = 0 = off, value = 1 = on
+```
+/scoreboard players set &break_spawner_pickaxe config.mineablespawner value
+```
+```
+/scoreboard players set &break_spawner_silktouch config.mineablespawner value
+```
+```
+/scoreboard players set &spawn_egg_drop config.mineablespawner value
+```
+```
+/scoreboard players set &xp_drop config.mineablespawner value
+```
+## Config pre 1.21.5
 
 
 ```
-/scoreboard players set &break_spawner mineablespawner.config value
+/scoreboard players set <player> break_spawner.mineablespawner value
 ```
 
 
@@ -47,13 +67,23 @@ value = 2 = Doesn't drop
 
 
 ```
-/scoreboard players set &xp_drop mineablespawner.config value
+/scoreboard players set &xp_drop config.mineablespawner value
 ```
-
 
 value = 0 = XP drops 
 
 value = 1 = No XP drops --> default
+
+### To change if the spawn egg should drop too (1.21+)
+
+
+```
+/scoreboard players set &spawn_egg_drop config.mineablespawner value
+```
+
+value = 0 = Spawn egg drops --> default
+
+value = 1 = Spawn egg doesn't drop
 
 ---
 
