@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spawner"
+        },
+        "title": "Mineable Spawner         ",
+        "description": [
+            "",
+            {
+                "text": "Makes spawners mineable\n",
+                "color": "white"
+            },
+            {
+                "text": "/trigger mineablespawner.config\n\n",
+                "color": "yellow"
+            },
+            {
+                "text": "Datapack version: ",
+                "color": "dark_green"
+            },
+            {
+                "text": "v2.3.5\n",
+                "color": "green"
+            },
+            {
+                "text": "Game version: ",
+                "color": "dark_green"
+            },
+            {
+                "text": "1.21.6+\n\n",
+                "color": "green"
+            },
+            {
+                "text": "modrinth.com/datapack/mineable-spawner",
+                "color": "dark_purple"
+            }
+        ],
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "jodek:crafting",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

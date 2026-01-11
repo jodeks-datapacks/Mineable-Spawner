@@ -1,0 +1,6 @@
+{
+  "values": [
+    "mineablespawner:app/setup",
+    "mineablespawner:app/load_message"
+  ]
+}
