@@ -1,4 +1,4 @@
-$summon item $(spawner_pos_x) $(spawner_pos_y) $(spawner_pos_z) {Item:{id:"$(spawn_egg_id)_spawn_egg"}}
+$execute as @s at @s run summon item $(spawner_pos_x) $(spawner_pos_y) $(spawner_pos_z) {Item:{id:"$(spawn_egg_id)_spawn_egg"}}
 
 $execute as @e[type=item,nbt={Item:{id:"$(spawn_egg_id)_spawn_egg"}}] run data modify entity @s Motion set value [0.0d,0.25d,0.02d]
 

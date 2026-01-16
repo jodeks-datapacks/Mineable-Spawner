@@ -16,19 +16,14 @@ execute unless score &break_spawner_pickaxe mineablespawner.config = &break_spaw
 
 scoreboard objectives add mined_spawner.mineablespawner minecraft.mined:spawner
 
-
 scoreboard objectives add mineablespawner.image dummy
 
-
 scoreboard objectives add mineablespawner.mined minecraft.mined:spawner
-
 
 scoreboard objectives add spawnerraycasttemp dummy
 
 scoreboard players set &hit spawnerraycasttemp 1
 
-
 scoreboard objectives add mineablespawner.data dummy
-
 
 function mineablespawner:config/image
