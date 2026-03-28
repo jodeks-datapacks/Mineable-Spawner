@@ -16,7 +16,7 @@
                   "type": "minecraft:fixed",
                   "name": "&break_spawner_pickaxe"
                 },
-                "score": "mineablespawner.config"
+                "score": "mineable_spawner.config"
               },
               "range": 1
             },
@@ -40,7 +40,7 @@
                   "type": "minecraft:fixed",
                   "name": "&break_spawner_pickaxe"
                 },
-                "score": "mineablespawner.config"
+                "score": "mineable_spawner.config"
               },
               "range": 0
             },

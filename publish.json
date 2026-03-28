@@ -1,19 +1,22 @@
 {
-  "project_id": "vj1HfksH",
-  "curseforge_project_id": "1426676",
+  "modrinth_id": "vj1HfksH",
+  "curseforge_id": "1426676",
+  "curseforge_mod_id": "1426687",
   "curseforge_slug": "mineable-spawner",
-  "loaders": [
-    "datapack"
-  ],
+  "loaders": ["datapack"],
   "game_versions": [
     "1.21.6",
     "1.21.7",
     "1.21.8",
     "1.21.9",
     "1.21.10",
-    "1.21.11"
+    "1.21.11",
+    "26.1"
   ],
   "version_type": "release",
-  "dependencies": "",
+  "dependencies": {
+    "datapack": ["5555ff-lib(optional){modrinth:Lr1LVAwO}{curseforge:1495266}"],
+    "mod": ["5555ff-lib(optional){modrinth:Lr1LVAwO}{curseforge:1495273}"]
+  },
   "discord_role_id": "1252026371874492526"
 }

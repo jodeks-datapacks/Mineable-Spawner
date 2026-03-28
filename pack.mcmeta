@@ -1,29 +1,41 @@
 {
   "pack": {
-		"min_format": [80,0],
-		"max_format": [999,0],
+    "min_format": [80, 0],
+    "max_format": [999, 0],
 
-		"pack_format": 80,
-		"supported_formats": [80,999],
+    "pack_format": 80,
+    "supported_formats": [80, 999],
     "description": [
       {
-        "text": "\"Mineable Spawner\" (mineablespawner)"
+        "text": "\"Mineable Spawner\" (mineable_spawner)"
       },
       "\n",
       {
-        "text": "Mine spawners with a pickaxe",
+        "translate": "mineable_spawner.description",
+        "fallback": "Mine spawners with a pickaxe",
         "color": "#aaaaaa"
       },
       "\n\n",
       {
-        "text": "Version "
+        "translate": "jodek.version",
+        "fallback": "Version"
       },
       {
-        "text": "2.3.6",
+        "text": " "
+      },
+      {
+        "text": "2.3.7",
         "color": "#55ff55"
       },
       {
-        "text": " for Minecraft "
+        "text": " "
+      },
+      {
+        "translate": "jodek.for_minecraft",
+        "fallback": "for Minecraft"
+      },
+      {
+        "text": " "
       },
       {
         "text": "1.21.6+",
@@ -31,7 +43,11 @@
       },
       "\n",
       {
-        "text": "by "
+        "translate": "jodek.by",
+        "fallback": "by"
+      },
+      {
+        "text": " "
       },
       {
         "text": "Jodek",
