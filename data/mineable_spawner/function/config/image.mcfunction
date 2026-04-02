@@ -16,7 +16,7 @@ function mineable_spawner:image/set_image_data {\
     {text: "Mineable Spawner"},\
     {translate: "mineable_spawner.description", fallback: "Mine spawners with a pickaxe"},\
     "",\
-    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.3.7", color: "#54fc54"}],\
+    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.3.8", color: "#54fc54"}],\
     "",\
     [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
     {text: "modrinth.com/datapack/mineable-spawner", color: "#a800a8"},\
