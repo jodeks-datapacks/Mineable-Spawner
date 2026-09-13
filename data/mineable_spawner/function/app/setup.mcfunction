@@ -7,8 +7,6 @@ scoreboard players set @a mineable_spawner.config 0
 
 scoreboard objectives add mined_spawner.mineable_spawner minecraft.mined:spawner
 
-scoreboard objectives add mineable_spawner.image dummy
-
 scoreboard objectives add mineable_spawner.mined minecraft.mined:spawner
 
 scoreboard objectives add mineable_spawner.raycast_start dummy
@@ -19,5 +17,3 @@ scoreboard objectives add mineable_spawner.raycast_check dummy
 scoreboard objectives add mineable_spawner.data dummy
 
 function mineable_spawner:config/set_default
-
-function mineable_spawner:config/image

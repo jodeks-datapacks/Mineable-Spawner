@@ -1,6 +1,5 @@
 {
   "values": [
-    "mineable_spawner:app/setup",
-    "mineable_spawner:app/load_message"
+    "mineable_spawner:app/setup"
   ]
 }

@@ -1,9 +1,7 @@
-data remove storage mineable_spawner:image data
 data remove storage mineable_spawner:root data
 
 scoreboard objectives remove mineable_spawner.config
 scoreboard objectives remove mined_spawner.mineable_spawner
-scoreboard objectives remove mineable_spawner.image
 scoreboard objectives remove mineable_spawner.config
 scoreboard objectives remove mineable_spawner.raycast_start
 scoreboard objectives remove mineable_spawner.raycast_hit

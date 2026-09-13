@@ -9,12 +9,6 @@
       {
         "text": "\"Mineable Spawner\" (mineable_spawner)"
       },
-      "\n",
-      {
-        "translate": "mineable_spawner.description",
-        "fallback": "Mine spawners with a pickaxe",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
@@ -24,7 +18,7 @@
         "text": " "
       },
       {
-        "text": "2.3.9",
+        "text": "2.4.0",
         "color": "#55ff55"
       },
       "\n",
@@ -38,15 +32,6 @@
       {
         "text": "Jodek",
         "color": "#ffff55"
-      }
-    ]
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "overlay-107.1",
-        "min_format": 107,
-        "max_format": 999
       }
     ]
   }
